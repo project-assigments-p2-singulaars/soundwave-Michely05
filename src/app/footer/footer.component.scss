@@ -1,21 +1,52 @@
 footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #202027;
     width: 100vw;
     height: 7vh;
+    display: flex;
+    justify-content: center;
 }
 
-#footer-info{
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+}
+
+#footer-left-side{
     a {
         font-family: Poppins, sans-serif;
         color: #ffff;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-decoration: none;
+        margin-right: 2rem;
+    }
+    a:hover{
+        color: #adadad;
     }
 }
-#footer-socials{
+#footer-right-side{
+    display: flex;
+    gap: 2rem;
+    #twitter-container{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    #facebook-container{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
     a {
         font-family: Poppins, sans-serif;
         color: #ffff;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #adadad;
     }
 }

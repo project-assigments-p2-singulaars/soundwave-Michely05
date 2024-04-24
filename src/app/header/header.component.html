@@ -1,12 +1,16 @@
 <header>
-    <div id="header-logo">
-        <img src="../../assets/logo.png" class="soundwave-logo" alt="Soundwave Logo">
-        <h1>Soundwave</h1>
+    <div id="header-container">
+        <div id="header-logo">
+            <a [routerLink]="['']"><img src="../../assets/logo.png" class="soundwave-logo" alt="Soundwave Logo"></a>
+            <a [routerLink]="['']">
+                <h1>Soundwave</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a [routerLink]="['/discover']">Discover</a></li>
+                <li><a [routerLink]="['/join']">Join</a></li>
+            </ul>
+        </nav>
     </div>
-    <nav>
-        <ul>
-            <li><a [routerLink]="['/discover']">Discover</a></li>
-            <li><a [routerLink]="['/join']">Join</a></li>
-        </ul>
-    </nav>
 </header>

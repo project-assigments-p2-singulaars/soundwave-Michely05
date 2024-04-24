@@ -52,6 +52,9 @@ main {
             margin: 0.5rem;
         }
     }
+    #charts-icon:hover, #albums-icon:hover, #more-icon:hover{
+        background-color: #bc3a80;
+    }
     #discover-text2 {
         font-family: Poppins, sans-serif;
         color: #ffff;
